@@ -1,0 +1,54 @@
+/* RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+/*Costomization*/
+
+
+body {
+	font-family:'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+	color: #777777;
+}
+
+h1 {
+	color: #224d0f;
+	font-size: 26px;
+	letter-spacing: 0.2em;
+	padding: 50px 30px 90px;
+	opacity: 0.9;
+}
